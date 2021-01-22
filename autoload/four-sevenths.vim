@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 function! four_sevenths#Resize()
   let l:window_num = len(tabpagebuflist())
   let l:width = 0
