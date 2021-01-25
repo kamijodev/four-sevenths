@@ -1,15 +1,9 @@
 scriptencoding utf-8
 
-if exists('g:loaded_four_sevenths')
-    finish
-endif
-
-let g:loaded_four_sevenths = 1
-
 let s:save_cpo = &cpo
 set cpo&vim
 
-command! FourSevenths call g:foursevenths#resize()
+command! FourSevenths call foursevenths#resize()
 
 autocmd WinEnter,BufEnter,BufWinEnter,BufWritePost * FourSevenths
 
