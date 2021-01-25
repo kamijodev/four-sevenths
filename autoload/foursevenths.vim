@@ -9,7 +9,7 @@ let g:loaded_four_sevenths = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! foursevenths#Resize()
+function! foursevenths#resize()
   let l:window_num = len(tabpagebuflist())
   let l:width = 0
 
