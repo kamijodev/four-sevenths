@@ -1,10 +1,10 @@
 scriptencoding utf-8
 
-" if exists('g:loaded_four_sevenths')
-"     finish
-" endif
+if exists('g:loaded_four_sevenths')
+    finish
+endif
 
-" let g:loaded_four_sevenths = 1
+let g:loaded_four_sevenths = 1
 
 let s:save_cpo = &cpo
 set cpo&vim
