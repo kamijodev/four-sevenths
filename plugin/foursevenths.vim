@@ -9,7 +9,7 @@ let g:loaded_four_sevenths = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-command! FourSevenths call four_sevenths#Resize()
+command! FourSevenths call foursevenths#Resize()
 
 autocmd WinEnter,BufEnter,BufWinEnter,BufWritePost * :FourSevenths<CR>
 
