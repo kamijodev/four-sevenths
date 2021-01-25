@@ -1,15 +1,15 @@
 scriptencoding utf-8
 
-if exists('g:loaded_four_sevenths')
-    finish
-endif
+" if exists('g:loaded_four_sevenths')
+"     finish
+" endif
 
-let g:loaded_four_sevenths = 1
+" let g:loaded_four_sevenths = 1
 
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! foursevenths#resize()
+function! g:foursevenths#resize()
   let l:window_num = len(tabpagebuflist())
   let l:width = 0
 
